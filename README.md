@@ -158,7 +158,6 @@ GROUP BY 1, 2
 ) as t1
 WHERE rank = 1
 ```
-** order by 1, 3 DESC **
 
 8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
 ```sql
