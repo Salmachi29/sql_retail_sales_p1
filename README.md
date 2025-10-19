@@ -85,7 +85,7 @@ FROM retail_sales
 WHERE 
     category = 'Clothing'
     AND 
-    TO_CHAR(sale_date, 'YYYY-MM') = '2022-11'   **TO_CHAR()= Convert a value (like a date or a number) into text (a character string) using a specific format that I choose**
+    TO_CHAR(sale_date, 'YYYY-MM') = '2022-11'
     AND
     quantity >= 4
 ```
